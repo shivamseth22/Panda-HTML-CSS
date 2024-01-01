@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.pandabody {
+    border: 2px solid;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background: black;
+    z-index: 1;
+}
+
+.tummy {
+    position: relative;
+    height: 435px;
+    width: 400px;
+    border-radius: 50%;
+    background: white;
+    z-index: 5;
+    left: 15%;
+    /* top: 4%; */
+    transform: rotate(-50deg);
+}
+
+.hand {
+    position: absolute;
+    border: 2px solid;
+    height: 550px;
+    width: 400px;
+    border-radius: 50%;
+    z-index: 5;
+    /* left: -20%; */
+    top: 3%;
+    transform: rotate(50deg);
+    background: black;
+
+}
+
+.earleft {
+    position: absolute;
+    border: 2px solid;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    z-index: 2;
+    top: -7%;
+    left: 35%;
+    transform: rotate(20deg);
+    background: rgb(0, 0, 0);
+
+}
+
+.earright {
+    position: absolute;
+    border: 2px solid;
+    height: 80px;
+    width: 70px;
+    border-radius: 50%;
+    z-index: 2;
+    top: 10%;
+    left: 80%;
+    transform: rotate(50deg);
+    background: rgb(0, 0, 0);
+
+}
+
+.face {
+    position: relative;
+    border: 2px solid;
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+    background: white;
+    z-index: 2;
+    left: 23%;
+    top: -2%;
+    transform: rotate(127deg);
+    /* background: black; */
+
+}
+
+.nose {
+    position: absolute;
+    border: 2px solid;
+    height: 35px;
+    width: 25px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    z-index: 2;
+    top: 43%;
+    left: 72%;
+
+
+}
+
+/* .nosetomouth{
+    position: absolute;
+    border: 2px solid;
+    height: 3px;
+    width: 25px;
+    border-radius: 50%;
+    background: rgb(213, 116, 116);
+    z-index: 2;
+    top: 41%;
+    left: 72%;
+    
+} */
+
+.handgap {
+
+    position: relative;
+    border: 2px solid;
+    height: 180px;
+    width: 100px;
+    border-radius: 50%;
+    background: white;
+    z-index: 2;
+    left: 38%;
+    top: 5%;
+    transform: rotate(10deg);
+}
+
+.lefteye {
+    position: absolute;
+    border: 2px solid;
+    height: 65px;
+    width: 50px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    z-index: 2;
+    left: 54%;
+    top: 63%;
+    top: 59%;
+    transform: rotate(100deg);
+    /* background: black; */
+}
+
+.innerleft {
+    position: relative;
+    border: 2px solid;
+    height: 18px;
+    width: 16px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    z-index: 2;
+    left: 40%;
+    top: 38%;
+
+}
+
+.doubleinnerleft {
+    position: relative;
+    border: 2px solid;
+    height: 10px;
+    width: 11px;
+    border-radius: 50%;
+    background: #000000;
+    z-index: 2;
+    left: 3%;
+    top: 4%;
+
+}
+
+.righteye {
+    position: absolute;
+    border: 2px solid;
+    height: 50px;
+    width: 65px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    z-index: 2;
+    transform: rotate(165deg);
+    left: 45%;
+    top: 25%;
+}
+
+.innerright {
+    position: relative;
+    border: 2px solid;
+    height: 18px;
+    width: 16px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    z-index: 2;
+    left: 40%;
+    top: 25%;
+    transform: rotate(85deg);
+}
+
+.doubleinnerright {
+    position: relative;
+    border: 2px solid;
+    height: 10px;
+    width: 11px;
+    border-radius: 50%;
+    background: #000000;
+    z-index: 2;
+    left: 5%;
+    top: 20%;
+}
+
+.innerhandgap {
+    position: relative;
+    height: 180px;
+    width: 94px;
+    /* border-radius: 50%; */
+    background: white;
+    z-index: 2;
+    left: -2%;
+    top: 39%;
+    transform: rotate(4deg);
+}
+.leftleg {
+    position: relative;
+    height: 180px;
+    width: 94px;
+    border-radius: 37%;
+    background: rgb(0, 0, 0);
+    z-index: 2;
+    left: -82%;
+    top: -12%;
+    transform: rotate(151deg);
+}
+
+
+.rightleg {
+    position: relative;
+    height: 180px;
+    width: 94px;
+    border-radius: 37%;
+    background: rgb(0, 0, 0);
+    z-index: 2;
+    left: 96%;
+    top: -210px;
+    transform: rotate(194deg);
+}
+
+.backleg {
+    position: absolute;
+    height: 186px;
+    width: 104px;
+    border-radius: 37%;
+    background: rgb(0, 0, 0);
+    z-index: 2;
+    left: 8%;
+    top: 52%;
+    transform: rotate(180deg);
+}
+.backleghide {
+    position: absolute;
+    height: 225px;
+    width: 150px;
+    background: rgb(255 255 255);
+    z-index: 1;
+    left: 19%;
+    top: 59%;
+    transform: rotate(194deg);
+}
+.me{
+    position: relative;
+    top: 20%;
+    left: -15px;
+    font-size: xx-large;
+    z-index: 50;
+    text-transform: uppercase;
+}
